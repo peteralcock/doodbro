@@ -14,7 +14,7 @@ RSpec.configure do |config|
 
   # Define the app for Rack::Test
   def app
-    MyApp
+    Dood
   end
 
   # Enable color in the output
