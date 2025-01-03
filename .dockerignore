@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+.bundle
+node_modules/
+.env
+config/database.yml
+config/secrets.yml
+tmp/
+vendor/bundle
+
+# .XXX/*
