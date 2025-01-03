@@ -9,15 +9,15 @@ describe 'Dood' do
     Dood
   end
 
-  it 'should return hello world' do
+  it 'should return sup?' do
     get '/'
     expect(last_response.status).to eq(200)
-    expect(JSON.parse(last_response.body)['message']).to eq('Hello, world!')
+    expect(JSON.parse(last_response.body)['message']).to eq('sup?')
   end
 
   it 'should return health status OK' do
     get '/health'
     expect(last_response.status).to eq(200)
-    expect(JSON.parse(last_response.body)['status']).to eq('OK')
+    expect(JSON.parse(last_response.body)['status']).to eq('im good')
   end
 end
