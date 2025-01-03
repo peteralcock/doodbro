@@ -12,5 +12,5 @@ Over the line, Smokey. That's a foul.
 ### Build and Run Locally
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
-   cd <repo_name>
+   git clone https://github.com/peteralcock/kubiyadood dood
+   cd dood
