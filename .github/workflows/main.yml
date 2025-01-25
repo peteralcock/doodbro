@@ -41,3 +41,7 @@ jobs:
 
     - name: Push Docker image
       run: docker tag dood:latest peteralcock/dood:latest && docker push peteralcock/dood:latest
+      
+    - name: Automatic Pull Request
+      uses: irgolic/AutoPR@v0.2.0
+  
