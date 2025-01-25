@@ -24,9 +24,6 @@ jobs:
     - name: Run tests
       run: bundle exec rspec
       
-    - name: Automatic Pull Request
-      uses: irgolic/AutoPR@v0.2.0
-      
   # push-image:
   #   needs: build
   #   runs-on: ubuntu-latest
