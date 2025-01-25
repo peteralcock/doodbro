@@ -18,6 +18,6 @@ describe 'Dood' do
   it 'should return health status OK' do
     get '/health'
     expect(last_response.status).to eq(200)
-    expect(JSON.parse(last_response.body)['status']).to eq('im good')
+    expect(JSON.parse(last_response.body)['status']).to eq('im good.')
   end
 end
