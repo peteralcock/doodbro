@@ -1,5 +1,4 @@
 name: CI/CD Workflow
-
 on:
   push:
     branches:
@@ -8,7 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -23,6 +21,9 @@ jobs:
 
     - name: Run tests
       run: bundle exec rspec
+      
+    - name: AutoPR
+      uses: docker://ghcr.io/irgolic/autopr:v0.1.2
       
   # push-image:
   #   needs: build
