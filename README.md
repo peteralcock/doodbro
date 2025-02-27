@@ -14,6 +14,6 @@ Over the line, Smokey. That's a foul.
 
 ### Build and Run Locally
 1. Clone the repository:
-   git clone https://github.com/peteralcock/kubiyadood dood
+   git clone https://github.com/peteralcock/doodbro
    
 3. Go bowlng.
