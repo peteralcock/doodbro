@@ -1,6 +1,9 @@
 # Dood API
 API for listening to the Dood's story.
 
+## Introduction
+It's a league game, Smokey.
+
 ## Getting Started
 Over the line, Smokey. That's a foul. 
 
