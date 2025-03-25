@@ -1,5 +1,4 @@
 # Dood API
-It's a league game, Smokey.
 
 ### Prerequisites
 - Docker
@@ -10,4 +9,4 @@ It's a league game, Smokey.
 1. Clone the repository:
    git clone https://github.com/peteralcock/doodbro
    
-3. Go bowlng.
+3. Let's go bowlng.
