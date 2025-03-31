@@ -1,5 +1,5 @@
 # doodbro
-A modern (ruby) test-driven development pipeline setup using Github Actions and RSpec to jumpstart your framework for responsible CDCI to build whatever you want without the initial food prep steps. Bon appetit! 
+A modern (ruby) test-driven development pipeline setup using Github Actions and RSpec for a Sinatra API 
 ### Prerequisites
 - Docker
 - Ruby 3.2
