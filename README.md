@@ -1,4 +1,4 @@
-# doodbro
+# Walter
 Ruby TDD pipeline using Github Actions and RSpec for Sinatra API 
 ### Prerequisites
 - Docker
