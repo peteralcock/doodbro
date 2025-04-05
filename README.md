@@ -1,5 +1,5 @@
 # doodbro
-A modern (ruby) test-driven development pipeline setup using Github Actions and RSpec for a Sinatra API 
+Ruby TDD pipeline using Github Actions and RSpec for Sinatra API 
 ### Prerequisites
 - Docker
 - Ruby 3.2
